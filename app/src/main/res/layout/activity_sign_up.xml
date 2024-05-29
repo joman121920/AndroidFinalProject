@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:text="Welcome Onboard!"
+        android:textColor="@color/buttonColor"
+        android:textSize="32sp"
+        android:textStyle="italic|bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginTop="20dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/primaryTextColor"
+        app:hintTextColor="@color/hintColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/textColor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_layout"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/primaryTextColor"
+        app:passwordToggleTint="@color/buttonColor"
+        app:hintTextColor="@color/hintColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/textColor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/repassword_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_layout"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/primaryTextColor"
+        app:passwordToggleTint="@color/buttonColor"
+        app:hintTextColor="@color/hintColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/repassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/textColor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/repassword_layout"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/buttonColor"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:padding="12dp"
+        android:text="Register"
+        android:textColor="@color/buttonTextColor"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnsignup"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/buttonColor"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:padding="12dp"
+        android:text="Already have an account? Login Here!"
+        android:textColor="@color/buttonTextColor"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/Airplane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-36dp"
+        android:fontFamily="sans-serif-light"
+        android:src="@drawable/airplane" />
+
+</RelativeLayout>

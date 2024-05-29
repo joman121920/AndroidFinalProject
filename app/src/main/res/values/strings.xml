@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Scheduler</string>
+    <string name="toggle_password_visibility">Toggle password visibility</string>
+    <!-- Other string resources -->
+    <string name="username_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="repassword_hint">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="existing_user">Existing user? Go to Sign in page</string>
+    <string name="calendar_icon">Calendar Icon</string>
+    <string name="web_client_id">140497214563-j7dqdbf4kr7crmkerfeuvsf4s31nh8qg.apps.googleusercontent.com</string>
+</resources>

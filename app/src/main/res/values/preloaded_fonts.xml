@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/fascinate_inline</item>
+        <item>@font/im_fell_french_canon_italic</item>
+        <item>@font/poppins_bold_italic</item>
+        <item>@font/timmana</item>
+    </array>
+</resources>
