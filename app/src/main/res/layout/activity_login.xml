@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/backgroundColor"
+    android:background="@color/background"
     tools:context=".LoginActivity">
 
     <TextView
@@ -19,7 +19,7 @@
         android:shadowDx="3"
         android:shadowDy="3"
         android:shadowRadius="1.5"
-        android:text="Welcome to Syncpro Scheduler!"
+        android:text="Welcome to TaskZen"
         android:textAlignment="center"
         android:textColor="@color/buttonColor"
         android:textSize="24sp"
@@ -110,14 +110,7 @@
         android:text="Sign in With Google"
         android:textColor="@color/buttonTextColor" />
 
-    <ImageView
-        android:id="@+id/Airplane"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-29dp"
-        android:fontFamily="sans-serif-light"
-        android:src="@drawable/airplane" />
+
 
 
 </RelativeLayout>

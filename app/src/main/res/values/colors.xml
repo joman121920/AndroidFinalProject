@@ -4,7 +4,7 @@
     <color name="primaryTextColor">#212121</color>
     <color name="hintColor">#757575</color>
     <color name="textColor">#424242</color>
-    <color name="buttonColor">#FA2C00</color>
+    <color name="buttonColor">#FF7D29</color>
     <color name="buttonTextColor">#FFFFFF</color>
     <color name="buttonColorSecondary">#FFC107</color>
     <color name="buttonTextColorSecondary">#FFFFFF</color>
@@ -12,10 +12,12 @@
     <color name="accentColor">#FF4081</color>
     <color name="white">#FFFFFF</color>
     <color name="shadowColor">#808080</color>
-
+    <color name="background">#FFEEA9</color>
     <color name="dark_blue">#32357a</color>
     <color name="Light_blue">#f2f1f6</color>
     <color name="green">@android:color/holo_green_dark</color>
+
+    <color name="palleteColor">#FF7D29</color>
     
     <color name="night_mode">#6124B1</color>
     <color name="notification">#13B2C3</color>

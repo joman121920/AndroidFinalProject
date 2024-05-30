@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/dark_blue"
+    android:background="@color/background"
     tools:context=".SettingsPage">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="Hello\nWelcome!"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textAlignment="center"
                 android:textSize="22dp"
                 android:textStyle="italic|bold" />
@@ -64,7 +64,7 @@
                 android:id="@+id/phoneNumberTextView"
                 android:layout_height="wrap_content"
                 android:text="+123 456 789"
-                android:textColor="@color/Light_blue"
+                android:textColor="@android:color/black"
                 android:textSize="12sp"
                 android:layout_gravity="center" />
 
@@ -104,14 +104,13 @@
                         android:background="@drawable/round_backnight" />
 
                     <TextView
-                        android:layout_marginStart="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/nightModeIcon"
                         android:text="Night Mode"
-                        android:textColor="@android:color/white"
-                        android:textStyle="italic|bold"
-                        android:layout_toEndOf="@+id/nightModeIcon"/>
+                        android:textColor="@android:color/black"
+                        android:textStyle="italic|bold" />
 
                     <androidx.appcompat.widget.SwitchCompat
                         android:layout_width="wrap_content"
@@ -141,7 +140,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Notification"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/notificationicon"/>
 
@@ -173,7 +172,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Private Account"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/privateAccounticon"/>
 
@@ -215,7 +214,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Security &amp; Privacy"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/securityicon"/>
 
@@ -247,7 +246,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Text Size"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/textSize"/>
 
@@ -279,7 +278,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Languages"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/languageIcon"/>
 
@@ -321,7 +320,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Send us a Message!"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/sendUsMessage"/>
 
@@ -353,7 +352,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="About us"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/aboutusicon"/>
 
@@ -385,7 +384,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="FAQS"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/Faqs"/>
 
@@ -427,7 +426,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Logout"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/logout"/>
 
@@ -458,7 +457,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:text="Thanks for Using this App!"
-                        android:textColor="@android:color/white"
+                        android:textColor="@android:color/black"
                         android:textStyle="italic|bold"
                         android:layout_toEndOf="@+id/byeMessage"/>
 

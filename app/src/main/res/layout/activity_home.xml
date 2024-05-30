@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@color/background"
     tools:context=".HomeActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,32 +18,15 @@
             android:layout_width="198dp"
             android:layout_height="40dp"
             android:layout_marginStart="18dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="92dp"
             android:fontFamily="@font/im_fell_french_canon_italic"
-            android:text="Scheduling "
+            android:text="   TaskZen "
             android:textColor="@color/buttonColor"
             android:textSize="40sp"
             android:textStyle="italic|bold"
             app:layout_constraintEnd_toStartOf="@+id/SyncProImage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/SyncProDesc"
-            android:layout_width="191dp"
-            android:layout_height="104dp"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/poppins_bold_italic"
-            android:text="Welcome To DashBoard!\n SyncPro is the best for handling Schedule Time!"
-            android:textAlignment="center"
-            android:textColor="@color/buttonColor"
-            android:textSize="18sp"
-            android:textStyle="italic|bold"
-            app:layout_constraintEnd_toStartOf="@+id/SyncProImage"
-            app:layout_constraintHorizontal_bias="0.366"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/SyncProName" />
 
         <ImageView
             android:id="@+id/SyncProImage"
@@ -75,7 +58,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@android:color/holo_blue_light">
+                app:cardBackgroundColor="@color/palleteColor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -123,7 +106,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@android:color/holo_blue_light">
+                app:cardBackgroundColor="@color/palleteColor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -133,7 +116,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/HomeTowns"
-                        android:text="Splash Screen"
+                        android:text="Home Screen"
                         android:textSize="20sp"
                         android:textColor="@android:color/black"
                         android:fontFamily="@font/im_fell_french_canon_italic"
@@ -159,31 +142,31 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@android:color/holo_blue_light">
+                app:cardBackgroundColor="@color/palleteColor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:id="@+id/Addtasks"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/Addtasks"
-                        android:text="Create Task"
-                        android:textSize="20sp"
-                        android:textColor="@android:color/black"
-                        android:fontFamily="@font/im_fell_french_canon_italic"
-                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/TaskImage"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/TaskImage" />
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/im_fell_french_canon_italic"
+                        android:text="Create Task"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
 
                     <ImageView
+                        android:id="@+id/TaskImage"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:id="@+id/TaskImage"
-                        android:src="@drawable/addtask"
+                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:layout_centerHorizontal="true" />
+                        android:src="@drawable/addtask" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -208,7 +191,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@android:color/holo_blue_light">
+                app:cardBackgroundColor="@color/palleteColor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -218,7 +201,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/Calendaryo"
-                        android:text="CalendarView"
+                        android:text="Calendar"
                         android:textSize="20sp"
                         android:textColor="@android:color/black"
                         android:fontFamily="@font/im_fell_french_canon_italic"
@@ -244,7 +227,7 @@
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 app:cardCornerRadius="20dp"
-                app:cardBackgroundColor="@android:color/holo_blue_light">
+                app:cardBackgroundColor="@color/palleteColor">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -254,7 +237,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/alarms"
-                        android:text="Alarm/Task Alarm"
+                        android:text="Alarm"
                         android:textSize="20sp"
                         android:textColor="@android:color/black"
                         android:fontFamily="@font/im_fell_french_canon_italic"
